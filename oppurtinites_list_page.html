@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title></title>
 	<meta charset="UTF-8">
-<title>Activate Bootstrap 3 Carousel via Data Attributes</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<style type="text/css">
-.carousel{
-    background: #2f4357;
-    margin-top: 20px;
-}
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
-}
-.bs-example{
-	margin: cover;
-}
-.form-inline{
-    margin-top: 30px;
-}
-.btn {
-    color: white;
-}
-</style>
+  <title>Activate Bootstrap 3 Carousel via Data Attributes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  .carousel{
+      background: #2f4357;
+      margin-top: 20px;
+  }
+  .carousel .item img{
+      margin: 0 auto; /* Align slide image horizontally center */
+  }
+  .bs-example{
+  	margin: cover;
+  }
+  .form-inline{
+      margin-top: 30px;
+  }
+  .pics {
+    position: relative;
+    float:left;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+  }
+  #social-buttons {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .btn {
+      color: white;
+  }
+  .btn-twitter {
+    background-color: #00acee;
+    border-color: #009ad5;
+  }
+  .btn-facebook {
+    background-color: #4868ac;
+    border-color:#314776;
+  }
+  .btn-pinterest {
+    background-color: #b62f26;
+  }
+  .btn-lg {
+    color: grey;
+  }
+  .container {
+    padding-top: 20px;
+
+  }
+  .wrapper {
+    text-align: center;
+    padding-top: 20px;
+  }
+  </style>
 </head>
+
 <body>
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -38,7 +73,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Volunteer Now!</a>
+      <a class="navbar-brand" href="#">BonVol</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -67,31 +102,44 @@
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Help</a></li>
-        
-         
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<h1>
-Oppurtnuites in to volunteer in Cleaning and Greening
-</h1>
+ <h1>
+    <center>Oppurtnuites in to volunteer in Cleaning and Greening</center>
+  </h1>
 
-<h2>
-	Ever wanted to say thanks for the amazing festival you went to this summer?
-	<img src="http://www.hotboxevents.com/media/2383/hotbox-events-reading-festival-volunteers-heading-out-to-work_370pxsq72dpi.jpg" alt="festival cleanup">
-</h2>  
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>
+      	Ever wanted to say thanks for that amazing festival you went to this summer?
+      	<img src="http://www.hotboxevents.com/media/2383/hotbox-events-reading-festival-volunteers-heading-out-to-work_370pxsq72dpi.jpg" class="pics" alt="festival cleanup">
+      </h3>  
+    </div>
+   
+    <div class="col-md-4">
+      <h3>
+	       Or want to help restore a local park, forest, or pond to its natural beauty?
+	       <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/dc/9c/42/bute-park.jpg" class="pics" alt="park">
+      </h3>
+    </div>
+    
+    <div class="col-md-4">
+      <h3>
+      	How about joining a local allotment and help grow food and make friends? 
+      	<img src="http://i.telegraph.co.uk/multimedia/archive/01712/veg_1712847c.jpg" class="pics" alt="allotment">
+      </h3>
+    </div>
+  </div>
+</div>
 
-<h2>
-	Or want to help restore a local park, forest, or pond to tis natural beauty?
-	<img src="https://media-cdn.tripadvisor.com/media/photo-s/01/dc/9c/42/bute-park.jpg" alt="park">
-</h2>
+<div class="wrapper">
+  <button type="button" class="btn btn-secondary btn-lg" align="center">Then log in or sign up to see what's in your area!</button>
+</div>
 
-<h2>
-	How about taking part in a community allotment? 
-	<img src="http://i.telegraph.co.uk/multimedia/archive/01712/veg_1712847c.jpg" alt="allotment">
-</h2>
 
 </body>
 </html>
