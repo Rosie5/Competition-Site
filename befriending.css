@@ -40,16 +40,14 @@ h1 {
   	color: #FF0080;
   	margin: 60px 0 0 0;
 }
-
 h2 {
 	padding: 20px;
 }
 body {
-
+font-family: 'Catamaran', serif;
 text-align: left;
 font-size: 15px;
 color: black;
-font-family: 'Lobster Two', cursive;
 
 }
 h2 {
@@ -57,5 +55,4 @@ h2 {
 }
 blockquote {
 	border-left: 0;
-}
 }
