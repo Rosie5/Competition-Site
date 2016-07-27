@@ -1,0 +1,58 @@
+#social-buttons button {
+	color: white;
+	margin-top: 50px;
+}
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5;
+}
+.btn-facebook {
+	background-color: #4868ac;
+	border-color:#314776;
+}
+.btn-pinterest {
+	background-color: #b62f26;
+}
+.summary {
+	padding-left: 20px;
+}
+.lead {width: 400px;
+align: right;}
+.fa-check {
+	color: green;
+}
+.li {padding: 30px;
+}
+.fa-clock-o {
+	color: #FF0080;
+}
+.fa-search {
+	color: #FF0080;
+}
+.fa-users {
+	color: #FF0080;
+}
+
+h1 {
+	font-family: 'Galada', cursive;
+	text-align: center;
+  	font-size: 75px;
+  	color: #FF0080;
+  	margin: 60px 0 0 0;
+}
+h2 {
+	padding: 20px;
+}
+body {
+font-family: 'Catamaran', serif;
+text-align: left;
+font-size: 15px;
+color: black;
+background: #e0eff9;
+}
+h2 {
+	text-align: left;
+}
+blockquote {
+	border-left: 0;
+}
